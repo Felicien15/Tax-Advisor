@@ -5,4 +5,10 @@
     <string name="hint_years">How Many Years</string>
     <string name="hint_emi">EMI ₹</string>
     <string name="hint_interest_total">Total Interest for Loan ₹</string>
+    <string name="emi_rwf">EMI Rwf</string>
+    <string name="intereset_total_rwf">Intereset Total Rwf</string>
+    <string name="enter_your_income">Enter your Income:</string>
+    <string name="enter_principal_rwf">Enter Principal Rwf</string>
+    <string name="amount">Amount</string>
+    <string name="tax_calculator">Tax Calculator</string>
 </resources>

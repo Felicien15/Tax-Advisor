@@ -1,7 +1,6 @@
 package com.cmt.taxcalculator;
 
 import android.annotation.SuppressLint;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,6 +8,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 public class IncomeActivity extends AppCompatActivity {
 
@@ -50,42 +50,42 @@ public class IncomeActivity extends AppCompatActivity {
         long Total = 0;
         long Tax=0;
         long in= Integer.parseInt(et.getText().toString());
-        if (in >= 200000 && in < 1000000)
+        if (in >= 100000 && in < 500000)
         {
             Tax= (in * 5)/100;
             Total = in + Tax;
         }
-        else if(in >= 1000000 && in < 2000000)
+        else if(in >= 500000 && in < 1000000)
         {
             Tax = (in * 10)/100;
             Total = in + Tax;
         }
-        else if(in >= 2000000 && in < 3000000)
+        else if(in >= 1000000 && in < 2000000)
         {
             Tax= (in * 15)/100;
             Total = in + Tax;
         }
-        else if (in >= 3000000 && in < 4000000)
+        else if (in >= 2000000 && in < 3000000)
         {
             Tax = (in * 20)/100;
             Total = in + Tax;
         }
-        else if(in >= 4000000 && in < 5000000)
+        else if(in >= 3000000 && in < 4000000)
         {
             Tax = (in * 25)/100;
             Total = in + Tax;
         }
-        else if (in >= 5000000 && in < 7000000)
+        else if (in >= 4000000 && in < 5000000)
         {
             Tax = (in * 30)/100;
             Total = in + Tax;
         }
-        else if (in >= 7000000 && in < 10000000)
+        else if (in >= 5000000 && in < 6000000)
         {
             Tax = (in * 35)/100;
             Total = in + Tax;
         }
-        else if (in >= 10000000)
+        else if (in >= 6000000)
         {
             Tax = (in * 40)/100;
             Total = in + Tax;
